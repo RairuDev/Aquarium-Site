@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@media (max-width: 599px) {
+  .title {
+    font-size: 0.6em;
+    margin: 0 35% 0 5%;
+  }
+  .header-wrapper {
+    justify-content: space-around;
+    height: 4em;
+  }
+  .twitter {
+    width: 50px;
+  }
+  .facebook {
+    width: 50px;
+  }
+  .facebook:hover {
+    width: 50px;
+  }
+  .twitter:hover {
+    width: 50px;
+  }
+  .slider_fade {
+    height: 350px;
+  }
+  .slider-img img {
+    height: 350px;
+  }
+  .contents-title {
+    font-size: 1.2em;
+  }
+  .contents-text {
+    font-size: 1em;
+  }
+  .contents-text span {
+    font-size: 1.1em;
+  }
+  .contents-text-black {
+    font-size: 1em;
+  }
+  .contents-text-black span {
+    font-size: 1.1em;
+  }
+  .primeday {
+    font-size: 0.8em;
+  }
+  .primeday span {
+    color: red;
+    font-size: 1.3em;
+  }
+  .map-img img {
+    height: 250px;
+  }
+
+  .Popular-wrapper1 {
+    margin-top: 1em;
+  }
+  .jellyfish,
+  .Dolphin {
+    font-size: 1em;
+  }
+  .Popula-img {
+    display: flex;
+    margin: 0.5em auto 0 auto;
+    width: 100%;
+  }
+  .Popula-img img {
+    height: 100px;
+  }
+  .Popular-wrapper2 {
+    font-size: 1em;
+    margin-top: 2em;
+  }
+  .animetion-wrapper {
+    font-size: 0.9em;
+  }
+  .hover-underline {
+    font-size: 1.2em;
+  }
+  .contents-textmap {
+    font-size: 0.8em;
+  }
+  #access-map iframe {
+    height: 300px;
+  }
+  .contents-animetion-text {
+    font-size: 1.1em;
+  }
+  .contents-animetion-text span {
+    font-size: 0.8em;
+  }
+  .contents-animetion-text span::before {
+    bottom: 0px;
+  }
+  .Arrow img {
+    width: 40px;
+    height: 40px;
+  }
+  .contetns-wrapper {
+    margin-top: 2em;
+    font-size: 1.3em;
+  }
+  .youtube-text {
+    margin-bottom: 0.5em;
+    font-size: 0.6em;
+  }
+  .youtube iframe {
+    width: 200px;
+    height: 150px;
+  }
+  .contents {
+    font-size: 1.3em;
+  }
+  .list-ul a {
+    font-size: 0.7em;
+  }
+  .list-ul {
+    line-height: 1.5;
+  }
+  .list-ul::before {
+    width: 2px; /* 幅指定 */
+    height: 2px; /* 高さ指定 */
+    top: -1px;
+    left: -5px;
+  }
+  footer {
+    height: 100px;
+    margin-top: 1em;
+  }
+  .footer-text {
+    margin: 0 auto;
+    font-size: 1em;
+    width: 350px;
+    padding: 2em 0;
+  }
+  .copy small {
+    font-size: 0.7em;
+  }
+}
