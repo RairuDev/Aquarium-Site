@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @media (max-width: 599px) {
   .title {
-    font-size: 0.6em;
+    font-size: 0.5em;
     margin-left: 5%;
   }
   .header-wrapper {
@@ -11,9 +11,13 @@
     margin-right: 3%;
   }
   .twitter {
+    padding: 0;
+    font-size: 0.5em;
     width: 30px;
   }
   .facebook {
+    padding: 0;
+    font-size: 1em;
     width: 30px;
   }
   .facebook:hover {
@@ -113,6 +117,7 @@
   }
   .contents {
     font-size: 1.1em;
+    color: #9370db;
   }
   .list-ul a {
     font-size: 0.7em;
@@ -132,7 +137,7 @@
   }
   .footer-text {
     margin: 0 auto;
-    font-size: 1em;
+    font-size: 0.9em;
     width: 350px;
     padding: 2em 0;
   }
