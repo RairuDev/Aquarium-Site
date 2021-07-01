@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tablet.style.css" />
+    <link rel="stylesheet" href="sp.style.css" />
+
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css"
+      type="text/css"
+      media="all"
+    />
+
+    <title>星駆け水族館</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <p class="title">星駆け水族館</p>
+        <script type="text/javascript">
+          $(".title")
+            .children()
+            .addBack()
+            .contents()
+            .each(function () {
+              if (this.nodeType == 3) {
+                var $this = $(this);
+                $this.replaceWith(
+                  $this.text().replace(/(\S)/g, "<span>$&</span>")
+                );
+              }
+            });
+        </script>
+        <div class="header-sns">
+          <a href="https://ja-jp.facebook.com"
+            ><i
+              class="fab fa-facebook-f facebook faa-pulse animated-hover fa-2x"
+            ></i
+          ></a>
+          <a href="https://twitter.com/?lang=ja"
+            ><i
+              class="fab fa-twitter twitter faa-pulse animated-hover fa-2x"
+            ></i
+          ></a>
+        </div>
+        <!--header-sns-->
+      </div>
+      <!--header-wrapper-->
+    </header>
+    <main>
+      <ul class="slider_fade">
+        <li class="slider-img"><img src="3vk.jpg" /></li>
+        <li class="slider-img">
+          <img src="b7c6f1158442054f354dc304579ae219_m-e1530191004542.jpg" />
+        </li>
+        <li class="slider-img">
+          <img src="1c24bc5fe72bc3e09305d207f6e84f9c5159eb93.jpg" />
+        </li>
+        <li class="slider-img"><img src="ダウンロード.jpeg" /></li>
+
+        <li class="slider-img"><img src="Lz4.jpg" /></li>
+      </ul>
+
+      <div class="main-wrapper">
+        <div id="menu1">
+          <p class="contents-title">・営業時間</p>
+          <div class="contents-text">
+            平日10時から17時(※最終入場16：30)<span>（火曜日休館）</span><br />
+            ナイトツアー（4月から10月　19時30分～21時　11月から3月　18時30分～20時
+          </div>
+        </div>
+        <!--menu1-->
+        <div id="menu2">
+          <p class="contents-title">・料金</p>
+          <div class="contents-text">
+            子供1200円、大人2400円　ナイトツアー子供1000円　大人2000円<br />
+            （夏休み期間限定:<span>7月1日~8月31日まで小学生はナイトツアー半額500円！！</span>）
+          </div>
+          <!--menu2-->
+        </div>
+        <p class="contents-title">・お客様感謝デー</p>
+        <div class="primeday">
+          <span>お客様への日頃の感謝を込めて毎月7日は料金が半額！！</span
+          ><br />（※但し他の割引との併用はできませんのでご了解ください）
+        </div>
+
+        <div id="menu3">
+          <p class="contents-title">・イベント</p>
+          <div class="contents-text-black">
+            <span>全日</span>　イルカショー　11時～、13時～、15時～
+          </div>
+
+          <div class="contents-text">
+            <span>土日・祝　</span>ペンギンショー　10時～、14時～、17時～
+          </div>
+        </div>
+        <!--menu3-->
+        <div id="menu4">
+          <p class="contents-title">・館内案内</p>
+          <div class="map-img">
+            <img src="floormap_B1.jpg" alt="館内マップ" />
+          </div>
+        </div>
+        <!--menu4-->
+        <div id="menu5">
+          <p class="contents-title">・当館のおすすめ</p>
+          <div class="Popular-wrapper1">
+            <div class="Dolphin">みんなの人気者イルカのしょうくん</div>
+            <div class="jellyfish">マイペースなクラゲのピッポちゃん</div>
+            <!--jellyfish-->
+          </div>
+          <!--Popular-wrapper-->
+          <div class="Popula-img">
+            <img src="o1000066714685318351.jpg" alt="イルカの写真" />
+            <img
+              src="15876049_1377662085609473_4275328631053484032_n.jpg"
+              alt="クラゲの写真"
+            />
+          </div>
+          <!--Popula-img1-->
+          <div class="Popular-wrapper2">
+            <div class="Orca">海のギャング　シャチのシドくん</div>
+            <div class="Sea-otter">当館のアイドルラッコのパンちゃん</div>
+          </div>
+          <div class="Popula-img">
+            <img src="Orque_Marineland.jpg" alt="しゃちの写真" />
+            <img
+              src="20210517-00010006-flash-000-10-view.jpg"
+              alt="ラッコの写真"
+            />
+          </div>
+          <!--Popula-img2-->
+        </div>
+        <!--menu5-->
+        <div id="menu6">
+          <p class="contents-title">・ナイトツアー</p>
+          <p class="animetion-wrapper">
+            小さいお子様から家族連れやカップルまで幅広い年齢層に人気なイベントです<br />
+            <a class="hover-underline" href="">
+              今なら生き物達とお客様との写真を撮ってsnsに呟いていただいたお客様には<br />次回使える当館の割引券と記念グッズをプレゼントしちゃいます！！
+            </a>
+          </p>
+          <!--animetion-wrapper-->
+        </div>
+        <!--menu6-->
+        <div id="menu7">
+          <p class="contents-title">・アクセス</p>
+          <div class="contents-textmap">
+            住所　福井県あわら市星駆XXX番地XXX号
+          </div>
+          <div id="access-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9591.159332681143!2d136.23185762965616!3d36.21016029545504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8eef3c237fa07%3A0x9bb9f2a7d1b61737!2z44GC44KP44KJ5biC5b255omA!5e0!3m2!1sja!2sjp!4v1624722785767!5m2!1sja!2sjp"
+              width="100%"
+              height="667px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <!--contents-textmap-->
+        </div>
+        <!--menu7-->
+
+        <div class="contents-animetion-text">
+          その他にも老若男女様々なお客様に楽しんでいただけるように様々な企画を用意してお待ちしております<br />
+          <span>最新情報はこちらから</span>
+        </div>
+        <div class="Arrow">
+          <img src="unnamed.png" alt="下矢印" />
+        </div>
+
+        <div class="sns-icon">
+          <a href="https://ja-jp.facebook.com"
+            ><i
+              class="fab fa-facebook-f facebook faa-pulse animated-hover fa-2x"
+            ></i
+          ></a>
+          <a href="https://twitter.com/?lang=ja"
+            ><i
+              class="fab fa-twitter twitter faa-pulse animated-hover fa-2x"
+            ></i
+          ></a>
+        </div>
+        <div class="contetns-wrapper">
+          <div class="youtube">
+            <div class="youtube-text">
+              おうち時間のお供にイルカショーなどの配信も<br />してるので是非家族や恋人とお楽しみください
+            </div>
+            <iframe
+              width="350"
+              height="270"
+              src="https://www.youtube.com/embed/J_bjVLdly-o"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="list-wrapper">
+            <div class="contents">contents</div>
+            <ul class="list">
+              <li class="list-ul"><a href="#">top</a></li>
+              <li class="list-ul"><a href="#menu1">営業時間</a></li>
+              <li class="list-ul"><a href="#menu2">料金</a></li>
+              <li class="list-ul"><a href="#menu3">イベント</a></li>
+              <li class="list-ul"><a href="#menu4">館内案内</a></li>
+              <li class="list-ul"><a href="#menu5">当館のおすすめ</a></li>
+              <li class="list-ul"><a href="#menu6">ナイトツアー</a></li>
+              <li class="list-ul"><a href="#menu7">アクセス</a></li>
+            </ul>
+          </div>
+          <!--list-wrapper-->
+        </div>
+        <!--contetns-wrapper-->
+      </div>
+      <!--main-wrapper-->
+    </main>
+    <footer>
+      <div class="footer-text">
+        星駆け水族館 〒131-0045　福井県あわら市星駆XXX番地XXX号 <br />TEL :
+        03-5619-XXXX（開館時間から18時まで）
+      </div>
+      <div class="copy"><small>&copy; hosikake</small></div>
+    </footer>
+  </body>
+</html>
