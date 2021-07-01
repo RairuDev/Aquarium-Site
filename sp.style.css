@@ -95,6 +95,7 @@
   }
   .contents-animetion-text span {
     font-size: 0.8em;
+    color:#FF00CC;
   }
   .contents-animetion-text span::before {
     bottom: 0px;
