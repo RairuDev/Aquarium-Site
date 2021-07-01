@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@media (max-width: 1024px) {
+  .title {
+    margin-left: 5%;
+    margin-right: 45%;
+  }
+  .facebook {
+    width: 50px;
+  }
+  .twitter {
+    width: 50px;
+  }
+  .facebook:hover {
+    width: 50px;
+  }
+  .twitter:hover {
+    width: 50px;
+  }
+  .header-sns {
+    margin-right: 20px;
+  }
+  .slider_fade {
+    height: 500px;
+  }
+  .slider-img img {
+    height: 500px;
+  }
+  .contents-title {
+    font-size: 1.8em;
+  }
+  .contents-text {
+    font-size: 1.4em;
+  }
+  .contents-text span {
+    font-size: 1.1em;
+  }
+  .primeday {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .primeday span {
+    color: red;
+    font-size: 1.5em;
+  }
+  .map-img img {
+    height: 400px;
+  }
+  .Popula-img img {
+    height: 250px;
+    width: 40%;
+  }
+  .animetion-wrapper {
+    font-size: 1.3em;
+  }
+  .hover-underline {
+    font-size: 1.2em;
+  }
+  .contents-animetion-text {
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .contents-animetion-text span {
+    font-size: 0.9em;
+  }
+  #access-map iframe {
+    height: 400px;
+  }
+  .contetns-wrapper {
+    justify-content: center;
+  }
+  .list-wrapper {
+    margin-left: 3em;
+  }
+}
