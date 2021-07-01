@@ -5,22 +5,22 @@
     margin-left: 5%;
   }
   .header-wrapper {
-    height: 4em;
+    height: 3em;
   }
   .header-sns {
     margin-right: 3%;
   }
   .twitter {
-    width: 40px;
+    width: 30px;
   }
   .facebook {
-    width: 40px;
+    width: 30px;
   }
   .facebook:hover {
-    width: 40px;
+    width: 30px;
   }
   .twitter:hover {
-    width: 40px;
+    width: 30px;
   }
   .slider_fade {
     height: 300px;
@@ -112,7 +112,7 @@
     height: 150px;
   }
   .contents {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
   .list-ul a {
     font-size: 0.7em;
