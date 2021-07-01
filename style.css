@@ -1,0 +1,333 @@
+@charset "UTF-8";
+body {
+  font-size: 62.5%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5em;
+  justify-content: space-between;
+}
+.title {
+  margin-left: 5%;
+}
+.title span:nth-child(1) {
+  color: #00ecff;
+  font-size: 3em;
+}
+.title span:nth-child(2) {
+  color: #99ccff;
+  font-size: 3em;
+}
+.title span:nth-child(3) {
+  color: #cc99ff;
+  font-size: 3em;
+}
+.title span:nth-child(4) {
+  color: #7b68ee;
+  font-size: 3em;
+}
+.title span:nth-child(5) {
+  color: #9370db;
+  font-size: 3em;
+}
+.title span:nth-child(6) {
+  color: #ee82ee;
+  font-size: 3em;
+}
+
+.header-sns {
+  margin-right: 30px;
+}
+.twitter {
+  color: #fff;
+  text-align: center;
+  background-color: skyblue;
+  width: 70px;
+  padding: 0.3em;
+  border-radius: 10%;
+}
+.facebook {
+  color: #fff;
+  text-align: center;
+  background-color: #136fff;
+  width: 70px;
+  padding: 0.3em;
+  border-radius: 10%;
+}
+.facebook:hover {
+  background-color: #fff;
+  color: #136fff;
+  width: 70px;
+  padding: 0.3em;
+  border-radius: 10%;
+}
+.twitter:hover {
+  background-color: #fff;
+  color: skyblue;
+  width: 70px;
+  padding: 0.3em;
+  border-radius: 10%;
+  text-align: center;
+}
+.slider_fade {
+  height: 600px;
+}
+.slider-img {
+  width: 100%;
+}
+.slider-img img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.slider_fade {
+  position: relative;
+}
+
+.slider_fade > li {
+  position: absolute;
+  list-style: none;
+  visibility: hidden;
+  animation: anime_slider_fade 19.5s 0s infinite;
+}
+.slider_fade > li:nth-of-type(2) {
+  animation-delay: 3.5s;
+}
+.slider_fade > li:nth-of-type(3) {
+  animation-delay: 7.5s;
+}
+.slider_fade > li:nth-of-type(4) {
+  animation-delay: 11.5s;
+}
+.slider_fade > li:nth-of-type(5) {
+  animation-delay: 15.5s;
+}
+
+@keyframes anime_slider_fade {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.main-wrapper {
+  margin: 0 2em;
+}
+.contents-title {
+  font-weight: bold;
+  font-size: 2em;
+  font-style: oblique;
+  margin-top: 1.5em;
+  text-align: center;
+}
+.contents-text {
+  font-size: 1.6em;
+  text-align: center;
+}
+.contents-text-black {
+  font-size: 1.6em;
+  text-align: center;
+}
+.contents-text-black span {
+  font-size: 1.2em;
+}
+.contents-text span {
+  color: red;
+  font-size: 1.2em;
+}
+.primeday {
+  font-size: 1.6em;
+  text-align: center;
+}
+.primeday span {
+  color: red;
+  font-size: 1.3em;
+}
+.map-img img {
+  width: 100%;
+  height: 600px;
+  margin-top: 1em;
+  object-fit: cover;
+}
+
+.Popular-wrapper1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+.jellyfish,
+.Dolphin {
+  font-size: 1.5em;
+}
+.Dolphin:hover {
+  text-decoration: underline;
+  color: #136fff;
+  cursor: pointer;
+}
+.jellyfish:hover {
+  text-decoration: underline;
+  color: #d0b0ff;
+  cursor: pointer;
+}
+
+.Popula-img {
+  display: flex;
+  margin: 0.5em auto 0 auto;
+  width: 100%;
+}
+.Popula-img img {
+  height: 300px;
+  width: 49%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.Popular-wrapper2 {
+  font-size: 1.5em;
+  margin-top: 3em;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.Orca:hover {
+  text-decoration: underline;
+  color: #00f9a9;
+  cursor: pointer;
+}
+.Sea-otter:hover {
+  text-decoration: underline;
+  color: #778899;
+  cursor: pointer;
+}
+.contents-textmap {
+  margin-bottom: 0.5em;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.animetion-wrapper {
+  font-size: 1.6em;
+  text-align: center;
+}
+.hover-underline {
+  padding-bottom: 0.25em;
+  background: linear-gradient(#cc99ff, #ff66ff) 0 100%/0 2px no-repeat;
+  transition: background 0.5s;
+  text-decoration: none;
+  font-size: 1.3em;
+  text-align: center;
+}
+.hover-underline:hover {
+  background-size: 100% 2px;
+}
+.contents-animetion-text {
+  font-size: 1.6em;
+  text-align: center;
+}
+.contents-animetion-text span {
+  display: inline-block;
+  position: relative;
+  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.3em;
+}
+.contents-animetion-text span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 2px;
+  background: red;
+  transform: scale(0, 1);
+  transform-origin: left;
+  transition: 0.5s;
+}
+.contents-animetion-text span:hover:before {
+  transform: scale(1);
+}
+.Arrow img {
+  width: 70px;
+  height: 70px;
+}
+.Arrow {
+  text-align: center;
+}
+.sns-icon {
+  text-align: center;
+}
+.contetns-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  font-size: 1.6em;
+}
+.youtube-text {
+  margin-bottom: 0.5em;
+}
+.contents {
+  font-style: oblique;
+  font-size: 1.5em;
+}
+.list-wrapper {
+  margin-left: 3em;
+}
+.list-ul a {
+  color: black;
+  font-size: 0.8em;
+}
+.list-ul {
+  list-style: none;
+  margin-left: 15px;
+  line-height: 2.3;
+}
+.list-ul::before {
+  content: ""; /* 空の要素作成 */
+  width: 3px; /* 幅指定 */
+  height: 3px; /* 高さ指定 */
+  display: inline-block; /* インラインブロックにする */
+  background-color: #000; /* 背景色指定 */
+  border-radius: 50%; /* 要素を丸くする */
+  position: relative;
+  top: -2px;
+  left: -10px;
+}
+.list-ul a:hover {
+  color: #00f9a9;
+}
+footer {
+  background-color: aqua;
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+}
+.footer-text {
+  margin: 0 auto;
+  font-size: 1.2em;
+  width: 350px;
+  padding: 50px 0;
+  text-align: center;
+}
+.copy {
+  text-align: center;
+}
+.copy small {
+  font-size: 1.3em;
+}
